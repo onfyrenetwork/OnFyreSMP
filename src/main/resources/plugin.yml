@@ -1,0 +1,47 @@
+name: OnFyreSMP
+version: '${project.version}'
+main: net.onfyre.onfyresmp.Main
+api-version: 1.19
+authors: [ NoahOnFyre ]
+description: Plugin für das OnFyreSMP
+commands:
+  craft:
+    description: Öffnet ein Crafting-GUI
+  ec:
+    description: Öffnet ein EnderChest-GUI
+  ping:
+    description: Zeigt dir deinen Ping
+  latency:
+    description: Zeigt dir deinen Ping
+  ecsee:
+    description: Admin-Only Command
+  invsee:
+    description: Admin-Only Command
+  stash:
+    description: Öffnet eine öffentliche ItemStash möglichkeit.
+  acp:
+    description: Admin-Only Command
+  server:
+    description: Zeigt dir die aktuelle Performance des Servers
+  performance:
+    description: Zeigt dir die aktuelle Performance des Servers
+  ban:
+    description: Bannt einen Spieler
+  unban:
+    description: Entbannt einen Spieler
+  kick:
+    description: Kickt einen Spieler
+  keys:
+    description: Admin-Only Command
+  stats:
+    description: Zeigt dir die Statistiken
+  s:
+    description: Zeigt dir die Statistiken
+  spawn:
+    description: Teleportiert dich zum Spawn
+  flyspeed:
+    description: Admin-Only Command
+  tpa:
+    description: Schickt eine Teleportanfrage an einen Spieler
+  tpaccept:
+    description: Nimmt eine Teleportanfrage an.
